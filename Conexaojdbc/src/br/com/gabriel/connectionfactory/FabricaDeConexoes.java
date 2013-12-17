@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class FabricaDeConexoes {
 
-	public Connection getConexao() {
+	public Connection getConnection() {
 		try {
-			return DriverManager.getConnection("jdbc:mysql://localhost",
+			return DriverManager.getConnection("jdbc:mysql://localhost/test",
 					"root", "cancer");
 		} catch (SQLException e) {
 			e.printStackTrace();

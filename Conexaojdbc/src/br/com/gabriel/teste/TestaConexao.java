@@ -9,7 +9,7 @@ public class TestaConexao {
 
 	public static void main(String[] args) {
 
-		Connection c = new FabricaDeConexoes().getConexao();
+		Connection c = new FabricaDeConexoes().getConnection();
 		System.out.println("Conectou!");
 		try {
 			c.close();
