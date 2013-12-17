@@ -2,7 +2,7 @@ package br.com.gabriel.modelo;
 
 import java.util.Calendar;
 
-public class Contatos {
+public class Contato {
 	private Long id;
 	private String nome;
 	private String email;
