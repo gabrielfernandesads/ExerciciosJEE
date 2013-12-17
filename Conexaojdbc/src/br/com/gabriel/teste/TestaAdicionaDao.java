@@ -6,7 +6,7 @@ import java.util.Calendar;
 import br.com.gabriel.dao.ContatoDao;
 import br.com.gabriel.modelo.Contatos;
 
-public class TestaConexaoDao {
+public class TestaAdicionaDao {
 
 	public static void main(String[] args) throws SQLException {
 		Contatos contato=new Contatos();
