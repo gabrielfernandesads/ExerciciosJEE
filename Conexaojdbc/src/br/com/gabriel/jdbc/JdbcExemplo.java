@@ -11,7 +11,7 @@ public class JdbcExemplo {
 		try {
 			Connection conexao = DriverManager.getConnection(
 					"jdbc:mysql://127.0.0.1/test", "root", "cancer");
-			System.out.println("Conectado com sucesso..!");
+			System.out.println("Conectado com sucesso....!");
 			conexao.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
